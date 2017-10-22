@@ -96,7 +96,7 @@ ITEM_PIPELINES = {
 MONGODB_HOST = '127.0.0.1'  # MONGODB 主机环回地址127.0.0.1
 MONGODB_PORT = 27017  # 端口号，默认是27017
 MONGODB_DBNAME = 'douban'  # 设置数据库名称
-MONGODB_DOCNAME = 'movie1'  # 存放本次数据的表名称
+MONGODB_DOCNAME = 'movie'  # 存放本次数据的表名称
 
 IPPOOL = [
     {"ipaddr": "119.109.101.108:8118"},
